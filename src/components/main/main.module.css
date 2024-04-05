@@ -1,0 +1,55 @@
+  .main {
+    background-color: #0079bf;
+    margin-bottom: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1235px;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+
+  .card {
+    background-color: #ebecf0;
+    border-radius: 10px;
+    width: calc(25% - 25px);
+    min-width: 290px;
+    max-height: 700px;
+    font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  }
+  
+  .title {
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .list {
+    padding: 0;
+    margin: 0 12px 12px 12px;
+    max-height: 390px;
+    overflow: auto;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .card {
+      width: calc(33.333% - 25px);
+    }
+  }
+
+  @media only screen and (max-width: 675px) {
+    .main {
+      width: 100%; 
+      
+    }
+
+    .card {
+      width: 60%;
+    }
+  }
