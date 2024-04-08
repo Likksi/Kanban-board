@@ -2,6 +2,7 @@
   background-color: #0067A3;
   margin-bottom: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  align-self: flex-start;
 }
 
 .box {
@@ -12,9 +13,7 @@
   margin: 0 auto;
   align-items: center;
   max-width: 1235px;
-  height: 55px; 
-  vertical-align: middle;
-  flex-grow: 1;
+  height: 55px;
 }
 
 .header h1 {

@@ -1,8 +1,9 @@
 .footer {
   background-color: #0067a3;
   height: 55px;
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
-  flex: 0 0 auto;
+  bottom: 0;
+  margin-top: auto;  
+  width: 100%;
 }
 
 .container {

@@ -101,7 +101,7 @@ export const Form = ({ card }) => {
         (title !== "Backlog" &&
           ((cards[id - 1].tasks.length === 0 && (
             <button className={css.add} key={id} disabled>
-              + add card
+              + Add card
             </button>
           )) || (
             <button
